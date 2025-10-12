@@ -1,91 +1,130 @@
 # 🚀 Demo Repository | Dépôt de Démonstration
 
-## English
+## 🗳️ WE NEED YOUR INPUT! | NOUS AVONS BESOIN DE VOTRE AVIS !
 
-### Welcome to MPC Demo Repository!
+### English 🇬🇧
 
-This is a **practice repository** designed for learning and mastering Git, GitHub, and open-source contribution workflows.
+**Before we can start building this learning space, we need YOUR feedback!**
 
-#### Purpose
-This repository serves as a safe space for community members to:
-- **Learn Git basics**: commits, branches, pull requests, merges
-- **Practice GitHub workflows**: issues, discussions
-- **Experience collaboration**: code reviews, conflict resolution, team communication
-- **Build confidence**: make mistakes, learn, and grow in a supportive environment
+We're creating this repository as a hands-on practice environment for learning Git, GitHub, and collaboration. But first, we need to know what technology stack YOU want to practice with.
 
-#### What Can You Do Here?
+### 👉 **[VOTE NOW on Tech Stack Poll](https://github.com/Mauritania-Programmers-Community/.github/discussions/11)** 👈
+
+**Your options:**
+- HTML/CSS/JavaScript (Vanilla - No Framework)
+- React.js
+- Next.js (React Framework)
+- Vue.js
+- Angular
+
+**Why your vote matters:**
+- ✅ Helps beginners learn tools they're interested in
+- ✅ Creates a learning path that matches community goals
+- ✅ Ensures experienced members can mentor effectively
+- ✅ Builds a resource everyone wants to contribute to
+
+**The repository structure will be built based on the winning technology!**
+
+---
+
+### Français 🇫🇷
+
+**Avant de pouvoir commencer à construire cet espace d'apprentissage, nous avons besoin de VOTRE avis !**
+
+Nous créons ce dépôt comme un environnement de pratique pour apprendre Git, GitHub et la collaboration. Mais d'abord, nous devons savoir quelle stack technologique VOUS voulez pratiquer.
+
+### 👉 **[VOTEZ MAINTENANT sur le Sondage Tech Stack](https://github.com/Mauritania-Programmers-Community/.github/discussions/11)** 👈
+
+**Vos options :**
+- HTML/CSS/JavaScript (Vanilla - Sans Framework)
+- React.js
+- Next.js (Framework React)
+- Vue.js
+- Angular
+
+**Pourquoi votre vote compte :**
+- ✅ Aide les débutants à apprendre les outils qui les intéressent
+- ✅ Crée un parcours d'apprentissage aligné avec les objectifs de la communauté
+- ✅ Permet aux membres expérimentés d'encadrer efficacement
+- ✅ Construit une ressource à laquelle tout le monde veut contribuer
+
+**La structure du dépôt sera construite en fonction de la technologie gagnante !**
+
+---
+
+## 📚 What This Repository Will Become | Ce que ce Dépôt Deviendra
+
+### English 🇬🇧
+
+Once the community decides on a tech stack, this repository will serve as a **safe practice space** for:
+
+**Learning Objectives:**
+- 🎯 **Git Basics**: commits, branches, pull requests, merges
+- 🎯 **GitHub Workflows**: issues, discussions, project boards
+- 🎯 **Real Collaboration**: code reviews, conflict resolution, team communication
+- 🎯 **Confidence Building**: make mistakes, learn, and grow together
+
+**What You'll Be Able to Do:**
 - Create your first pull request
 - Practice branching and merging strategies
-- Learn to write meaningful commit messages
+- Write meaningful commit messages
 - Collaborate with other community members
-- Experiment with GitHub features without fear
+- Experiment with the chosen tech stack
+- Learn from code reviews and feedback
 
-#### Getting Started
-1. **Fork** this repository to your GitHub account
-2. **Clone** your fork to your local machine
-3. **Create** a new branch for your changes
-4. **Make** your contributions
-5. **Commit** your changes with clear messages
-6. **Push** to your fork
-7. **Submit** a pull request
+### Français 🇫🇷
 
-#### Community Guidelines
+Une fois que la communauté aura choisi une stack technologique, ce dépôt servira d'**espace de pratique sécurisé** pour :
+
+**Objectifs d'Apprentissage :**
+- 🎯 **Bases de Git** : commits, branches, pull requests, fusions
+- 🎯 **Workflows GitHub** : issues, discussions, tableaux de projet
+- 🎯 **Collaboration Réelle** : revues de code, résolution de conflits, communication d'équipe
+- 🎯 **Développement de la Confiance** : faire des erreurs, apprendre et grandir ensemble
+
+**Ce que Vous Pourrez Faire :**
+- Créer votre première pull request
+- Pratiquer les stratégies de branchement et fusion
+- Écrire des messages de commit significatifs
+- Collaborer avec d'autres membres de la communauté
+- Expérimenter avec la stack technologique choisie
+- Apprendre des revues de code et des retours
+
+---
+
+## 🤝 Community Guidelines | Directives Communautaires
+
+### English 🇬🇧
 - Be respectful and supportive of all learners
 - Follow our [Code of Conduct](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CODE_OF_CONDUCT.md)
 - Ask questions - there are no silly questions!
 - Help others when you can
 - Have fun learning!
 
-#### Need Help?
-- Check our [Discussions](https://github.com/Mauritania-Programmers-Community/.github/discussions)
-- Review our [Contributing Guide](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CONTRIBUTING.md)
-- Connect with the community
-
----
-
-## Français
-
-### Bienvenue au Dépôt de Démonstration MPC !
-
-Ceci est un **dépôt d'entraînement** conçu pour apprendre et maîtriser Git, GitHub et les flux de travail de contribution open-source.
-
-#### Objectif
-Ce dépôt sert d'espace sécurisé pour les membres de la communauté pour :
-- **Apprendre les bases de Git** : commits, branches, pull requests, fusions
-- **Pratiquer les workflows GitHub** : issues, discussions
-- **Expérimenter la collaboration** : revues de code, résolution de conflits, communication d'équipe
-- **Gagner en confiance** : faire des erreurs, apprendre et grandir dans un environnement bienveillant
-
-#### Que Pouvez-Vous Faire Ici ?
-- Créer votre première pull request
-- Pratiquer les stratégies de branchement et fusion
-- Apprendre à écrire des messages de commit significatifs
-- Collaborer avec d'autres membres de la communauté
-- Expérimenter les fonctionnalités GitHub sans crainte
-
-#### Commencer
-1. **Forker** ce dépôt vers votre compte GitHub
-2. **Cloner** votre fork sur votre machine locale
-3. **Créer** une nouvelle branche pour vos modifications
-4. **Effectuer** vos contributions
-5. **Commiter** vos changements avec des messages clairs
-6. **Pousser** vers votre fork
-7. **Soumettre** une pull request
-
-#### Directives Communautaires
+### Français 🇫🇷
 - Soyez respectueux et solidaire envers tous les apprenants
 - Suivez notre [Code de Conduite](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CODE_OF_CONDUCT_fr.md)
 - Posez des questions - il n'y a pas de questions bêtes !
 - Aidez les autres quand vous le pouvez
 - Amusez-vous en apprenant !
 
-#### Besoin d'Aide ?
-- Consultez nos [Discussions](https://github.com/Mauritania-Programmers-Community/.github/discussions)
-- Lisez notre [Guide de Contribution](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CONTRIBUTING_fr.md)
-- Connectez-vous avec la communauté
+---
+
+## 🔗 Important Links | Liens Importants
+
+- 🗳️ **[Tech Stack Poll | Sondage Stack Technique](https://github.com/Mauritania-Programmers-Community/.github/discussions/11)** ⭐ **VOTE HERE!**
+- 💬 [Community Discussions | Discussions Communautaires](https://github.com/Mauritania-Programmers-Community/.github/discussions)
+- 📖 [Contributing Guide | Guide de Contribution](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CONTRIBUTING.md)
+- 🛡️ [Code of Conduct | Code de Conduite](https://github.com/Mauritania-Programmers-Community/.github/blob/main/CODE_OF_CONDUCT.md)
 
 ---
 
-**Note**: The actual content and structure of this repository will be decided by the community through discussions and polls. Join the conversation to shape this learning resource!
+## ⏳ Current Status | Statut Actuel
 
-**Remarque** : Le contenu et la structure réels de ce dépôt seront décidés par la communauté à travers des discussions et des sondages. Rejoignez la conversation pour façonner cette ressource d'apprentissage !
+🔄 **Waiting for community feedback** | **En attente des retours de la communauté**
+
+The repository structure will be created once we gather enough votes and determine the preferred tech stack. Your participation shapes this learning resource!
+
+La structure du dépôt sera créée une fois que nous aurons suffisamment de votes et déterminé la stack technologique préférée. Votre participation façonne cette ressource d'apprentissage !
+
+### 👉 **[CAST YOUR VOTE NOW!](https://github.com/Mauritania-Programmers-Community/.github/discussions/11)** 👈
