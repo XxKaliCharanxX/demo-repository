@@ -9,7 +9,7 @@ This is a **practice repository** designed for learning and mastering Git, GitHu
 #### Purpose
 This repository serves as a safe space for community members to:
 - **Learn Git basics**: commits, branches, pull requests, merges
-- **Practice GitHub workflows**: issues, discussions, project boards
+- **Practice GitHub workflows**: issues, discussions
 - **Experience collaboration**: code reviews, conflict resolution, team communication
 - **Build confidence**: make mistakes, learn, and grow in a supportive environment
 
@@ -52,7 +52,7 @@ Ceci est un **dépôt d'entraînement** conçu pour apprendre et maîtriser Git,
 #### Objectif
 Ce dépôt sert d'espace sécurisé pour les membres de la communauté pour :
 - **Apprendre les bases de Git** : commits, branches, pull requests, fusions
-- **Pratiquer les workflows GitHub** : issues, discussions, tableaux de projet
+- **Pratiquer les workflows GitHub** : issues, discussions
 - **Expérimenter la collaboration** : revues de code, résolution de conflits, communication d'équipe
 - **Gagner en confiance** : faire des erreurs, apprendre et grandir dans un environnement bienveillant
 
