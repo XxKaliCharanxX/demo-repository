@@ -80,7 +80,7 @@ npm run format:check # Check if code is formatted
 
 - ✅ Auto-format on save (Prettier)
 - ✅ Tailwind CSS autocomplete
-- ✅ Spell checking for French words
+- ✅ Spell checking
 - ✅ Live server with auto-reload
 
 **When you open the project**, VS Code will prompt:
@@ -227,13 +227,13 @@ We use **conventional commits** to keep our history clean and consistent.
 
 | Type         | Use When                          | Example                                |
 | ------------ | --------------------------------- | -------------------------------------- |
-| **feat**     | Adding new feature                | `feat: add mobile menu`                |
-| **fix**      | Fixing a bug                      | `fix: correct footer spacing`          |
-| **docs**     | Documentation only                | `docs: update readme`                  |
-| **style**    | Code formatting (no logic change) | `style: format with prettier`          |
-| **refactor** | Code cleanup (no feature change)  | `refactor: simplify language switcher` |
-| **test**     | Adding tests                      | `test: add navigation tests`           |
-| **chore**    | Maintenance tasks                 | `chore: update dependencies`           |
+| **feat**     | Adding new feature                | `feat: add mobile menu`              |
+| **fix**      | Fixing a bug                      | `fix: correct footer spacing`        |
+| **docs**     | Documentation only                | `docs: update readme`                |
+| **style**    | Code formatting (no logic change) | `style: format with prettier`        |
+| **refactor** | Code cleanup (no feature change)  | `refactor: simplify navigation code` |
+| **test**     | Adding tests                      | `test: add navigation tests`         |
+| **chore**    | Maintenance tasks                 | `chore: update dependencies`         |
 
 ### Examples
 
@@ -266,17 +266,6 @@ git commit -m "final version"
 
 ## 📝 Demo-Specific Guidelines
 
-### Bilingual Content Required
-
-All text must be in **both English and French**:
-
-```html
-<h2 class="text-3xl font-bold">
-  <span class="lang-content lang-en active">English Text</span>
-  <span class="lang-content lang-fr">Texte Français</span>
-</h2>
-```
-
 ### Use Tailwind CSS
 
 Prefer Tailwind utility classes over custom CSS:
@@ -302,9 +291,7 @@ Before submitting your PR:
 
 - [ ] Tested in browser - no errors
 - [ ] Tested on mobile (375px width)
-- [ ] Language switcher works (EN ↔ FR)
 - [ ] No console errors (F12)
-- [ ] Both English and French content provided
 
 ---
 
@@ -337,7 +324,6 @@ Look for issues labeled:
 ### Advanced (2+ hours)
 
 - JavaScript features
-- Language switcher improvements
 - Accessibility fixes
 - Performance optimizations
 
@@ -367,7 +353,6 @@ demo-repository/
 ├── index.html              # Main page (edit this!)
 ├── css/custom.css          # Custom styles
 ├── js/app.js               # JavaScript features
-├── translations/           # EN/FR content (future use)
 ├── assets/images/          # Images and logo
 └── docs/                   # Documentation
 ```
@@ -378,7 +363,6 @@ demo-repository/
 
 - Code works correctly
 - Tested on desktop and mobile
-- Both English and French content added
 - No console errors
 - Follows existing code style
 

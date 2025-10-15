@@ -19,9 +19,7 @@ Fixes #(issue number)
 
 - [ ] Tested in browser (works correctly)
 - [ ] Tested on mobile (375px width)
-- [ ] Language switcher works (EN ↔ FR)
 - [ ] No console errors
-- [ ] Both English and French content added (if applicable)
 
 ## Screenshots
 

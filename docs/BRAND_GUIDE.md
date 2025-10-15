@@ -27,25 +27,6 @@ MPC Gold:   #FFD700  (Accent color)
 
 ---
 
-## 🌐 Bilingual Content (Required)
-
-**Always include both English and French:**
-
-```html
-<h2 class="text-3xl font-bold">
-  <span class="lang-content lang-en active">Welcome</span>
-  <span class="lang-content lang-fr">Bienvenue</span>
-</h2>
-```
-
-**Rules:**
-
-- English has `active` class
-- French does NOT have `active` class
-- Both must exist for all user-facing text
-
----
-
 ## 🎯 Common Components
 
 ### Button
@@ -69,7 +50,6 @@ MPC Gold:   #FFD700  (Accent color)
 Before submitting:
 
 - [ ] Using `bg-primary-500` (green) or `bg-golden-500` (gold)
-- [ ] All text is bilingual (EN/FR)
 - [ ] Tested on mobile (375px width)
 
 ---

@@ -1,0 +1,105 @@
+# GitHub Labels for MPC Demo Repository
+# Apply these labels using: gh label create <name> -d "<description>" -c <color>
+
+# Difficulty Levels (Green shades)
+- name: "good first issue"
+  description: "Perfect for first-time contributors"
+  color: "7057ff"
+
+- name: "beginner friendly"
+  description: "Easy tasks, no coding experience required"
+  color: "00d084"
+
+- name: "intermediate"
+  description: "Requires some coding knowledge"
+  color: "ffa500"
+
+- name: "advanced"
+  description: "Complex task requiring experience"
+  color: "ff0000"
+
+# Type of Work (Blue shades)
+- name: "bug"
+  description: "Something isn't working"
+  color: "d73a4a"
+
+- name: "enhancement"
+  description: "New feature or request"
+  color: "a2eeef"
+
+- name: "documentation"
+  description: "Improvements or additions to documentation"
+  color: "0075ca"
+
+- name: "content"
+  description: "Update text, images, or content"
+  color: "1d76db"
+
+# Area of Work (Purple shades)
+- name: "html"
+  description: "HTML structure changes"
+  color: "e99695"
+
+- name: "css"
+  description: "Styling and design"
+  color: "c5def5"
+
+- name: "javascript"
+  description: "JavaScript functionality"
+  color: "f9d0c4"
+
+- name: "design"
+  description: "UI/UX design improvements"
+  color: "d4c5f9"
+
+# Community (Yellow shades)
+- name: "help wanted"
+  description: "Extra attention is needed"
+  color: "fbca04"
+
+- name: "question"
+  description: "Further information is requested"
+  color: "d876e3"
+
+- name: "discussion"
+  description: "Discussion needed before implementation"
+  color: "cc317c"
+
+# Priority (Orange to Red)
+- name: "priority: low"
+  description: "Low priority"
+  color: "c2e0c6"
+
+- name: "priority: medium"
+  description: "Medium priority"
+  color: "fbca04"
+
+- name: "priority: high"
+  description: "High priority"
+  color: "ff6b6b"
+
+# Status (Gray shades)
+- name: "blocked"
+  description: "Blocked by other issues or dependencies"
+  color: "b60205"
+
+- name: "in progress"
+  description: "Someone is actively working on this"
+  color: "0e8a16"
+
+- name: "needs review"
+  description: "Ready for review"
+  color: "fbca04"
+
+# Special
+- name: "duplicate"
+  description: "This issue or pull request already exists"
+  color: "cfd3d7"
+
+- name: "wontfix"
+  description: "This will not be worked on"
+  color: "ffffff"
+
+- name: "hacktoberfest"
+  description: "Eligible for Hacktoberfest"
+  color: "ff6b6b"
