@@ -12,6 +12,10 @@ jobs:
     name: Check code quality
     runs-on: ubuntu-latest
 
+    # Permissions: Only read access needed for code quality checks
+    permissions:
+      contents: read
+
     steps:
       # Step 1: Get the code from the PR
       - name: Checkout code
