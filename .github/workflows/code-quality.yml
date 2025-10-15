@@ -1,0 +1,41 @@
+name: Code Quality Check
+
+# When does this run?
+# - Every time someone creates or updates a Pull Request
+# - Helps catch errors before code review
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality-check:
+    name: Check code quality
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Get the code from the PR
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js (needed to run npm commands)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step 3: Run linters (same as "npm run lint")
+      - name: Run linters (HTML, CSS, JavaScript)
+        run: npm run lint
+        continue-on-error: false
+
+      # Step 4: Check code formatting (same as "npm run format:check")
+      - name: Check code formatting
+        run: npm run format:check
+        continue-on-error: false
+
+      # Success message
+      - name: All checks passed!
+        if: success()
+        run: |
+          echo "✅ Great job! Your code passes all quality checks."
+          echo "Your PR is ready for review!"
