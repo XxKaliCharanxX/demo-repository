@@ -3,7 +3,9 @@
 .mcp.json
 
 # IDE and Editor
-.vscode/
+# Keep .vscode/ for shared settings and extensions
+# Only ignore user-specific settings
+.vscode/*.local.*
 .idea/
 *.swp
 *.swo
@@ -20,3 +22,8 @@ npm-debug.log*
 # Dependencies (if added later)
 node_modules/
 vendor/
+
+
+# playwrite
+.playwright-mcp/*
+CLAUDE.md

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Version control
+.git/
+.github/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+.mcp.json
+
+# Playwright
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Translation files (keep original formatting)
+translations/*.json
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
