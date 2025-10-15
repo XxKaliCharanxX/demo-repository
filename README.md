@@ -90,13 +90,21 @@ The repository is now ready for you to start learning and practicing! Dive in, e
 
 ---
 
-## 🌍 Future Enhancements
+## 🌟 Want to Contribute?
 
-Interested in adding bilingual support (French/Arabic)? Check out our [feature request issues](../../issues) or create a new one! We welcome contributions for:
+We have **beginner-friendly issues** ready for you! Check out our [issues page](../../issues) to find:
 
-- Multilingual content system
-- Language switcher UI
-- Internationalization (i18n) implementation
-- Translation management
+- 🟢 **Good first issues** - Perfect for your first contribution
+- 🟡 **Beginner friendly** - Learn HTML, CSS, and JavaScript basics
+- 🔵 **Intermediate** - Practice more advanced web development
+
+**Popular starter tasks:**
+- Mobile hamburger menu
+- Dark mode toggle
+- Back to top button
+- Accessibility improvements
+- Performance optimizations
+
+Don't see what you're looking for? [Create a new issue](../../issues/new) and suggest a feature!
 
 Your contributions make this community better! 🚀
