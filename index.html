@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -85,7 +85,7 @@
       };
     </script>
 
-    <!-- Custom CSS for Patterns and Animations -->
+    <!-- Custom CSS for Patterns, Animations, and Scroll Button -->
     <link rel="stylesheet" href="./css/custom.css" />
   </head>
 
@@ -96,7 +96,11 @@
         <div class="flex items-center justify-between">
           <!-- Logo -->
           <div class="flex items-center gap-3">
-            <img src="./assets/images/MPC.png" alt="Mauritania Programmers Community Logo" class="w-12 h-12 object-contain" />
+            <img
+              src="https://raw.githubusercontent.com/Mauritania-Programmers-Community/demo-repository/main/assets/images/MPC.png"
+              alt="Mauritania Programmers Community Logo"
+              class="w-12 h-12 object-contain"
+            />
             <div>
               <h1 class="text-2xl font-bold text-gray-900">MPC</h1>
               <p class="text-xs text-gray-600">Mauritania Programmers Community</p>
@@ -551,7 +555,11 @@
           class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm"
         >
           <div class="mb-4 md:mb-0">
-            <p>© <span id="footer-year">2025</span> Mauritania Programmers Community. All rights reserved.</p>
+            <p>
+              ©
+              <span id="footer-year">2025</span>
+              Mauritania Programmers Community. All rights reserved.
+            </p>
             <p class="text-gray-500 mt-2">Building together, learning together 🇲🇷💻</p>
           </div>
           <div class="flex gap-4">
@@ -577,6 +585,11 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- JavaScript -->
     <script src="./js/app.js"></script>
