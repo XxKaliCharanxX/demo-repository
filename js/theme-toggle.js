@@ -1,29 +1,31 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const themeToggle = document.getElementById("theme-toggle");
-  const themeIcon = document.getElementById("theme-icon");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+document.addEventListener('DOMContentLoaded', () => {
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
   function applyTheme(theme) {
-    document.documentElement.setAttribute("data-theme", theme);
-    themeIcon.classList.toggle("fa-sun", theme === "dark");
-    themeIcon.classList.toggle("fa-moon", theme === "light");
+    document.documentElement.setAttribute('data-theme', theme);
+    themeIcon.classList.toggle('fa-sun', theme === 'dark');
+    themeIcon.classList.toggle('fa-moon', theme === 'light');
   }
 
-  let theme = "light";
+  let theme = 'light';
   try {
-    const stored = localStorage.getItem("theme");
-    theme = stored || (prefersDark.matches ? "dark" : "light");
+    const stored = localStorage.getItem('theme');
+    theme = stored || (prefersDark.matches ? 'dark' : 'light');
   } catch (e) {
-    console.warn("localStorage not available:", e);
+    console.warn('localStorage not available:', e);
   }
 
   applyTheme(theme);
 
-  themeToggle.addEventListener("click", () => {
-    theme = theme === "dark" ? "light" : "dark";
+  themeToggle.addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
     applyTheme(theme);
     try {
-      localStorage.setItem("theme", theme);
-    } catch (e) {}
+      localStorage.setItem('theme', theme);
+    } catch {
+      // Ignore persistent storage errors (e.g., disabled cookies)
+    }
   });
 });
