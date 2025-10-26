@@ -68,29 +68,33 @@ If not, install Git:
 
 ```bash
 npm start            # Start live server with auto-reload
-npm run lint         # Check code quality (HTML, CSS, JS)
-npm run lint:html    # Check HTML only
-npm run lint:css     # Check CSS only
-npm run lint:js      # Check JavaScript only
-npm run format       # Auto-format all code
-npm run format:check # Check if code is formatted
+npm run lint         # Check formatting + JavaScript errors
+npm run lint:format  # Check code formatting only (Prettier)
+npm run lint:js      # Check JavaScript errors only (ESLint)
+npm run format       # Auto-format all code with Prettier
 ```
 
-**VS Code Users Get**:
+**What each tool checks:**
+- **Prettier** (formatting): Indentation, spacing, quotes, line length
+- **ESLint** (quality): Syntax errors, unused variables, undefined variables
 
-- ✅ Auto-format on save (Prettier)
-- ✅ Tailwind CSS autocomplete
-- ✅ Spell checking
-- ✅ Live server with auto-reload
+**VS Code Users** (Optional):
 
-**When you open the project**, VS Code will prompt:
+Recommended extensions for better developer experience:
+- **Prettier** - Auto-format on save
+- **Tailwind CSS IntelliSense** - CSS class autocomplete
+- **Live Server** - Auto-reload browser on save
 
-> "Do you want to install recommended extensions?"
+Install via VS Code Extensions marketplace, then configure auto-format:
+```json
+// .vscode/settings.json (create this file locally)
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+```
 
-Click **"Install All"** for the best experience!
-
-**What This Gives You**:
-
+**Workflow Improvement**:
 ```
 Before: Edit → Save → Switch to browser → Refresh → See result
 After:  Edit → Save → Auto-formatted + Auto-reloaded! ✨
@@ -146,8 +150,8 @@ git checkout -b docs/update-readme
 # - Any console errors? (F12)
 
 # OPTIONAL: Run quality checks locally
-npm run lint         # Check code quality
-npm run format:check # Check formatting
+npm run lint         # Check formatting + JavaScript errors
+npm run format       # Auto-format code
 ```
 
 ### Step 6: Stage and Commit
