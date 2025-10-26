@@ -18,23 +18,23 @@
 function initSmoothScroll() {
   const navLinks = document.querySelectorAll('a[href^="#"]');
 
-  navLinks.forEach(link => {
-    link.addEventListener('click', function (e) {
-      const href = this.getAttribute('href');
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function (e) {
+      const href = this.getAttribute("href");
 
       // Only prevent default for anchor links (not just #)
-      if (href !== '#' && href.length > 1) {
+      if (href !== "#" && href.length > 1) {
         e.preventDefault();
         const targetId = href.substring(1);
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
-          const navHeight = document.querySelector('nav').offsetHeight;
+          const navHeight = document.querySelector("nav").offsetHeight;
           const targetPosition = targetElement.offsetTop - navHeight;
 
           window.scrollTo({
             top: targetPosition,
-            behavior: 'smooth',
+            behavior: "smooth",
           });
         }
       }
@@ -74,7 +74,7 @@ function animateCounter(element, target, duration = 2000) {
  * @returns {string} Formatted number string
  */
 function formatNumber(num) {
-  return num + '+';
+  return num + "+";
 }
 
 /**
@@ -83,13 +83,13 @@ function formatNumber(num) {
  */
 function initFooterYear() {
   try {
-    const el = document.getElementById('footer-year');
+    const el = document.getElementById("footer-year");
     if (!el) return;
     const year = new Date().getFullYear();
     el.textContent = year;
   } catch (err) {
     // Fail silently - footer year is non-essential
-    console.warn('Unable to set footer year', err);
+    console.warn("Unable to set footer year", err);
   }
 }
 
@@ -97,16 +97,16 @@ function initFooterYear() {
  * Initialize counter animation when stats section is visible
  */
 function initStatsCounter() {
-  const statNumbers = document.querySelectorAll('.animate-counter');
+  const statNumbers = document.querySelectorAll(".animate-counter");
   if (statNumbers.length === 0) return;
 
   const observer = new IntersectionObserver(
-    entries => {
-      entries.forEach(entry => {
+    (entries) => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           // Animate the stat number
           const stat = entry.target;
-          const text = stat.textContent.replace('+', '');
+          const text = stat.textContent.replace("+", "");
           const target = parseInt(text);
           if (!isNaN(target)) {
             animateCounter(stat, target);
@@ -123,7 +123,7 @@ function initStatsCounter() {
   );
 
   // Observe each stat number individually
-  statNumbers.forEach(stat => observer.observe(stat));
+  statNumbers.forEach((stat) => observer.observe(stat));
 }
 
 // ============================================
@@ -145,7 +145,7 @@ function initMobileMenu() {
 /**
  * Initialize all functions when DOM is loaded
  */
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   // Initialize smooth scroll
   initSmoothScroll();
 
@@ -164,8 +164,8 @@ document.addEventListener('DOMContentLoaded', function () {
   %cWelcome to our demo repository!
   %cGitHub: https://github.com/Mauritania-Programmers-Community
   `,
-    'color: #00A859; font-size: 16px; font-weight: bold;',
-    'color: #666; font-size: 14px;',
-    'color: #666; font-size: 12px;'
+    "color: #00A859; font-size: 16px; font-weight: bold;",
+    "color: #666; font-size: 14px;",
+    "color: #666; font-size: 12px;"
   );
 });

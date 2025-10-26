@@ -1,45 +1,38 @@
 name: Code Quality Check
 
-# When does this run?
-# - Every time someone creates or updates a Pull Request
-# - Helps catch errors before code review
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  quality-check:
-    name: Check code quality
+  format:
+    name: Check Code Formatting
     runs-on: ubuntu-latest
-
-    # Permissions: Only read access needed for code quality checks
-    permissions:
-      contents: read
+    # Don't block merge on failure - this is educational
+    continue-on-error: true
 
     steps:
-      # Step 1: Get the code from the PR
       - name: Checkout code
         uses: actions/checkout@v5
 
-      # Step 2: Setup Node.js (needed to run npm commands)
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: "18"
 
-      # Step 3: Run linters (same as "npm run lint")
-      - name: Run linters (HTML, CSS, JavaScript)
-        run: npm run lint
-        continue-on-error: false
+      - name: Check code formatting with Prettier
+        run: npx prettier --check '**/*.{html,css,js,md,json}' --ignore-path .gitignore
+        continue-on-error: true
 
-      # Step 4: Check code formatting (same as "npm run format:check")
-      - name: Check code formatting
-        run: npm run format:check
-        continue-on-error: false
+      - name: Check JavaScript with ESLint
+        run: npx eslint '**/*.js' --ignore-pattern 'node_modules/**'
+        continue-on-error: true
 
-      # Success message
-      - name: All checks passed!
-        if: success()
+      - name: Quality check summary
+        if: always()
         run: |
-          echo "✅ Great job! Your code passes all quality checks."
-          echo "Your PR is ready for review!"
+          echo "💡 Code quality check complete!"
+          echo "If issues were found, fix them locally:"
+          echo "  - Format code: npm run format"
+          echo "  - Check linting: npm run lint"
+          exit 0

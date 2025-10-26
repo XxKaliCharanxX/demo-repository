@@ -32,7 +32,9 @@ MPC Gold:   #FFD700  (Accent color)
 ### Button
 
 ```html
-<button class="bg-primary-500 text-white px-6 py-2 rounded-lg hover:bg-primary-600">
+<button
+  class="bg-primary-500 text-white px-6 py-2 rounded-lg hover:bg-primary-600"
+>
   Click Me
 </button>
 ```

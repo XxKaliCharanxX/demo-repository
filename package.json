@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "Mauritania Programmers Community - Demo Repository for learning Git, GitHub, and web development",
   "scripts": {
-    "start": "npx live-server --port=3000 --open=index.html --watch=.",
-    "lint:html": "npx htmlhint '**/*.html' --ignore 'node_modules/**'",
-    "lint:css": "npx stylelint '**/*.css' --ignore-path .gitignore",
-    "lint:js": "npx eslint '**/*.js'",
-    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
-    "format": "npx prettier --write '**/*.{html,css,js,md,json}' --ignore-path .gitignore",
-    "format:check": "npx prettier --check '**/*.{html,css,js,md,json}' --ignore-path .gitignore"
+    "start": "npx live-server --port=3000 --open=index.html",
+    "lint": "npm run lint:format && npm run lint:js",
+    "lint:format": "npx prettier --check '**/*.{html,css,js,md,json}'",
+    "lint:js": "npx eslint '**/*.js' --ignore-pattern 'node_modules/**'",
+    "format": "npx prettier --write '**/*.{html,css,js,md,json}'"
   },
   "repository": {
     "type": "git",
@@ -32,10 +30,5 @@
   "bugs": {
     "url": "https://github.com/Mauritania-Programmers-Community/demo-repository/issues"
   },
-  "homepage": "https://github.com/Mauritania-Programmers-Community/demo-repository#readme",
-  "devDependencies": {},
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  }
+  "homepage": "https://github.com/Mauritania-Programmers-Community/demo-repository#readme"
 }

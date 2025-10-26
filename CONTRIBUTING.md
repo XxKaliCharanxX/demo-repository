@@ -225,8 +225,8 @@ We use **conventional commits** to keep our history clean and consistent.
 
 ### Types
 
-| Type         | Use When                          | Example                                |
-| ------------ | --------------------------------- | -------------------------------------- |
+| Type         | Use When                          | Example                              |
+| ------------ | --------------------------------- | ------------------------------------ |
 | **feat**     | Adding new feature                | `feat: add mobile menu`              |
 | **fix**      | Fixing a bug                      | `fix: correct footer spacing`        |
 | **docs**     | Documentation only                | `docs: update readme`                |

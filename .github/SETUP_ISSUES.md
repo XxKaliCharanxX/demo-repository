@@ -55,30 +55,38 @@ Copy and paste these issue templates into GitHub:
 **Labels:** `good first issue`, `beginner friendly`, `content`, `html`
 
 **Description:**
-```markdown
+
+````markdown
 ## Description
+
 The footer currently shows "© 2025" but we should make it dynamic or at least update it regularly.
 
 ## Task
+
 Update the copyright year in the footer section of `index.html`.
 
 **Location:** `index.html` line ~657
 
 **Current:**
+
 ```html
 <p>© 2025 Mauritania Programmers Community. All rights reserved.</p>
 ```
+````
 
 **Change to:**
+
 ```html
 <p>© 2025 Mauritania Programmers Community. All rights reserved.</p>
 ```
 
 ## Skills Needed
+
 - Basic HTML knowledge
 - Text editing
 
 ## Steps
+
 1. Fork the repository
 2. Edit `index.html`
 3. Find the footer section
@@ -86,11 +94,13 @@ Update the copyright year in the footer section of `index.html`.
 5. Commit and create a PR
 
 ## Resources
+
 - [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [Contributing Guide](CONTRIBUTING.md)
 
 Need help? Ask in the comments!
-```
+
+````
 
 ---
 
@@ -118,21 +128,25 @@ Add meaningful alt text to images in `index.html`.
 
 <!-- Could be more descriptive -->
 <img src="./assets/images/MPC.png" alt="Mauritania Programmers Community Logo - Green crescent and gold star">
-```
+````
 
 ## Images to Update
+
 - Logo in header
 - Any project screenshots (if added)
 - Event images (if added)
 
 ## Skills Needed
+
 - Basic HTML
 - Understanding of accessibility
 
 ## Resources
+
 - [Alt Text Best Practices](https://www.w3.org/WAI/tutorials/images/)
 - [WCAG Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
-```
+
+````
 
 ---
 
@@ -165,17 +179,20 @@ function initMobileMenu() {
   // This is a placeholder for future mobile menu functionality
   console.log('Mobile menu functionality ready for implementation');
 }
-```
+````
 
 ## Skills Needed
+
 - HTML
 - CSS (media queries)
 - JavaScript (DOM manipulation)
 
 ## Resources
+
 - [Responsive Navigation](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
 - [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
-```
+
+````
 
 ---
 
@@ -204,29 +221,32 @@ const darkModePreference = window.matchMedia('(prefers-color-scheme: dark)');
 
 // Save to localStorage
 localStorage.setItem('theme', 'dark');
-```
+````
 
 ```css
 /* CSS Variables */
 :root {
   --bg-color: white;
-  --text-color: #0A1628;
+  --text-color: #0a1628;
 }
 
 [data-theme="dark"] {
-  --bg-color: #0A1628;
+  --bg-color: #0a1628;
   --text-color: white;
 }
 ```
 
 ## Skills Needed
+
 - JavaScript
 - CSS (custom properties)
 - localStorage API
 
 ## Resources
+
 - [Dark Mode Guide](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
-```
+
+````
 
 ---
 
@@ -261,7 +281,7 @@ A picture is worth a thousand words! Add screenshots or an animated GIF showing 
 
 ## Resources
 - [Markdown Images](https://www.markdownguide.org/basic-syntax/#images-1)
-```
+````
 
 ---
 
@@ -272,38 +292,46 @@ A picture is worth a thousand words! Add screenshots or an animated GIF showing 
 **Labels:** `enhancement`, `beginner friendly`, `javascript`, `css`
 
 **Description:**
-```markdown
+
+````markdown
 ## Description
+
 When users scroll down, show a "Back to Top" button that smoothly scrolls to the top of the page.
 
 ## Task
+
 1. Add button HTML (hidden by default)
 2. Show button when user scrolls down >300px
 3. Add click handler to scroll to top smoothly
 4. Style with MPC brand colors
 
 ## Example Implementation
+
 ```javascript
 // Show/hide based on scroll
-window.addEventListener('scroll', () => {
-  const scrollTop = document.querySelector('.scroll-to-top');
+window.addEventListener("scroll", () => {
+  const scrollTop = document.querySelector(".scroll-to-top");
   if (window.pageYOffset > 300) {
-    scrollTop.classList.add('visible');
+    scrollTop.classList.add("visible");
   } else {
-    scrollTop.classList.remove('visible');
+    scrollTop.classList.remove("visible");
   }
 });
 ```
+````
 
 ## Skills Needed
+
 - HTML
 - CSS (positioning, transitions)
 - JavaScript (event listeners)
 
 ## Resources
+
 - [Scroll Events](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event)
 - [Smooth Scroll](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
-```
+
+````
 
 ---
 
@@ -334,7 +362,7 @@ There's already a spinner animation in `css/custom.css:225`!
 ## Resources
 - [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
 - [Loading Spinners](https://loading.io/css/)
-```
+````
 
 ---
 
@@ -349,12 +377,14 @@ There's already a spinner animation in `css/custom.css:225`!
 ## 📊 Label Best Practices
 
 ### For Beginners:
+
 - Always tag with `good first issue` or `beginner friendly`
 - Provide clear, step-by-step instructions
 - Link to resources and documentation
 - Offer help in comments
 
 ### For Organization:
+
 - Use multiple labels (difficulty + type + area)
 - Update labels as issue progresses
 - Use `in progress` when someone is working on it

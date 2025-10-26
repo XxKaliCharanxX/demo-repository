@@ -99,6 +99,7 @@ We have **beginner-friendly issues** ready for you! Check out our [issues page](
 - 🔵 **Intermediate** - Practice more advanced web development
 
 **Popular starter tasks:**
+
 - Mobile hamburger menu
 - Dark mode toggle
 - Back to top button

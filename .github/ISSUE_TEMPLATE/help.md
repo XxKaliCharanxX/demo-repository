@@ -1,8 +1,8 @@
 ---
 name: Help Request
 about: Ask for help with contributing
-title: '[HELP] '
-labels: 'question, help wanted'
+title: "[HELP] "
+labels: "question, help wanted"
 ---
 
 ## What do you need help with?

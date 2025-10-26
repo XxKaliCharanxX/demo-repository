@@ -1,8 +1,8 @@
 ---
 name: Bug Report
 about: Report a bug or issue
-title: '[BUG] '
-labels: 'bug'
+title: "[BUG] "
+labels: "bug"
 ---
 
 ## What happened?

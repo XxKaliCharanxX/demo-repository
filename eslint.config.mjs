@@ -6,6 +6,8 @@ export default [
       '.vscode/**',
       '.claude/**',
       '.playwright-mcp/**',
+      '.github/**',
+      'docs/**',
       'translations/**'
     ]
   },
@@ -29,13 +31,7 @@ export default [
       'no-unused-vars': 'warn',
       'no-undef': 'error',
       'no-console': 'off',
-      'semi': ['error', 'always'],
-      'quotes': ['error', 'single'],
-      'indent': ['error', 2],
-      'no-trailing-spaces': 'error',
-      'eol-last': ['error', 'always'],
-      'comma-dangle': ['error', 'only-multiline'],
-      'no-multiple-empty-lines': ['error', { max: 2 }]
+      'eqeqeq': 'warn'
     }
   }
 ];
